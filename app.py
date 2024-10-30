@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from PIL import Image
 
-st.set_page_config(page_title="Sample Webpage using Python", page_icon="images/favicon.ico",layout="wide")
+st.set_page_config(page_title="Portfolio Web App using Python", page_icon="images/favicon.ico",layout="wide")
 
 def load_lottieurl(url):
     r=requests.get(url)
