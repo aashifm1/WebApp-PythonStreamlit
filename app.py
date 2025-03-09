@@ -24,9 +24,9 @@ img_lottie_animation = Image.open("images/demo-telegram.jpg")
 
 with st.container():
     st.subheader("Hello, I am Aashif :wave:")
-    st.title("A Computer Science Student from India")
+    st.title("Computer Science Student @ BSA Crescent University")
     st.write("I am passionate about tech related stuffs. Excited to explore the depth of technology.")
-    st.write("https://aashifm.netlify.app")
+    st.write("[Visit my website](https://aashifm.netlify.app)")
     st.write("---")
 
 with st.container():
@@ -43,7 +43,7 @@ with st.container():
             - Alexa, a task assistant that a user used to open browser, youtube, chatgpt, ask time and all by voice input. 
             """
         )
-        st.write("[Projects(GitHub) >](https://github.com/aashifm1)")
+        st.write("[Check out my GitHub](https://github.com/aashifm1)")
     
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
@@ -62,7 +62,7 @@ with st.container():
             Whether you're looking to automate simple processes or need a reliable assistant on hand, Course Master is here to enhance your Telegram experience.
             """
         )
-        st.markdown("https://t.me/aashifmbot")
+        st.markdown("https://t.me/mastercoursebot")
 st.write("---")
 
 with st.container():
